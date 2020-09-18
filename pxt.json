@@ -1,6 +1,6 @@
 {
     "name": "pxt-serialmp3",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,9 +9,9 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
         "main.ts",
-        "serialmp3.ts"
+        "serialmp3.ts",
+        "_locales/de/pxt-serialmp3-strings.json"
     ],
     "testFiles": [
         "test.ts"
