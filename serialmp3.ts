@@ -32,12 +32,14 @@ const enum Mp3Command {
   UNMUTE,
 }
 
-//% color=#8b1e88  icon="\uf001" block="serialMP3"
+//% color=#ec29e6 icon="\uf001" block="serialMP3"
 namespace serialmp3 {
   const enum PlayMode {
     Track = 0,
     Folder = 1,
   }
+
+//% groups='["On start","Commands"]'
 
   interface DeviceState {
     track: uint16;
@@ -185,7 +187,8 @@ namespace serialmp3 {
   //% mp3RX.fieldOptions.tooltips="false"
   //% mp3TX.fieldEditor="gridpicker" mp3TX.fieldOptions.columns=3
   //% mp3TX.fieldOptions.tooltips="false"
-  //% weight=50
+  //% weight=50 mp3RX.defl=DigitalPin.C16 mp3TX.defl=DigitalPin.C17
+  //% group="On Start"
   export function connectSerialMp3(mp3RX: DigitalPin, mp3TX: DigitalPin): void {
     serial.redirect(mp3RX as number, mp3TX as number, BaudRate.BaudRate9600);
     
