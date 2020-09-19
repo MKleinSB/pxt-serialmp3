@@ -188,7 +188,7 @@ namespace serialmp3 {
   //% mp3TX.fieldEditor="gridpicker" mp3TX.fieldOptions.columns=3
   //% mp3TX.fieldOptions.tooltips="false"
   //% weight=50 mp3RX.defl=DigitalPin.C16 mp3TX.defl=DigitalPin.C17
-  //% group="On Start"
+  //% group="On start"
   export function connectSerialMp3(mp3RX: DigitalPin, mp3TX: DigitalPin): void {
     serial.redirect(mp3RX as number, mp3TX as number, BaudRate.BaudRate9600);
     
