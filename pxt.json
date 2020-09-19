@@ -10,6 +10,7 @@
     "files": [
         "README.md",
         "main.ts",
+        "main.blocks",
         "serialmp3.ts",
         "_locales/de/pxt-serialmp3-strings.json"
     ],
