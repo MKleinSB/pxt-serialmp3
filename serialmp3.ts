@@ -32,7 +32,7 @@ const enum Mp3Command {
   UNMUTE,
 }
 
-//% color=#ec29e6 icon="\uf001" block="serialMP3"
+//% color=#0fbc11 icon="\uf001" block="serialMP3"
 namespace serialmp3 {
   const enum PlayMode {
     Track = 0,
