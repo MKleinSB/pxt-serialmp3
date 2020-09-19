@@ -41,9 +41,10 @@ If you experience playback problems, check for deviations to the naming conventi
 ### serialmp3 connectSerialMp3
 
 Connects to the Serial MP3 device. The first pin needs to be attached the MP3 device receiver pin (RX) and the second pin to the MP3 device transmitter pin (TX).
+You have to cross Rx and Tx line. So Calliope RX has to connect to mp3player TX and Calliope TX has to connect to mp3player RX.
 
 ```sig
-serialmp3.connectSerialMp3(DigitalPin.P0, DigitalPin.P1)
+serialmp3.connectSerialMp3(DigitalPin.C16, DigitalPin.C17)
 ```
 
 ### serialmp3 playMp3TrackFromFolder
