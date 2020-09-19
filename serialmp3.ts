@@ -225,6 +225,7 @@ namespace serialmp3 {
   //% track.min=1 track.max=255
   //% folder.min=1 folder.max=99
   //% weight=49
+  //% group="Commands"
   export function playMp3Track(track: number, folder: number): void {
     if (!deviceState) {
       connectSerialMp3(DigitalPin.P0, DigitalPin.P1);
