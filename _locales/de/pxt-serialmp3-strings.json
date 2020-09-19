@@ -21,7 +21,7 @@
   "serialmp3.playMp3Track|block": "spiele MP3 Titel %track | im Ordner %folder und warte bis Titelende",
   "serialmp3.runMp3Command|block": "MP3 %command",
   "serialmp3.setMp3Volume|block": "stelle MP3 Lautstärke auf %volume",
-  "{id:category}serialmp3": "Makerbit",
+  "{id:category}serialMP3": "seriellMP3",
   "{id:group}On start": "Beim Start",
   "{id:group}Commands": "MP3 Befehle"
 }
