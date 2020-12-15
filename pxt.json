@@ -1,7 +1,7 @@
 {
     "name": "pxt-serialmp3",
     "version": "0.0.8",
-    "description": "",
+    "description": "Plays your mp3-files from a microSD-card",
     "dependencies": {
         "core": "*",
         "radio": "*",
