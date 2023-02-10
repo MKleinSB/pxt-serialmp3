@@ -11,7 +11,8 @@ You can connect the makerbit to your Calliope mini with a free (in Germany) adap
 
 ## Serial MP3
 
-This extension supports MP3 devices with the YX5300 chip, e.g. the Catalex Serial MP3.
+This extension supports MP3 devices with the YX5300 chip, e.g. the Catalex Serial MP3 und the grove mp3-player V2.
+If it does nor work, change RX- and TX-pin
 
 The microSD card shall be formatted as FAT16 or FAT32. exFAT is not supported properly and shall be avoided.
 
